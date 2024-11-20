@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.macena.seleniumselector.Controller"
+      spacing="10" alignment="CENTER" prefWidth="400" prefHeight="300">
+    <Label text="Versão do Chrome: Detectando..." fx:id="chromeVersionLabel"/>
+    <Button text="Baixar Chromedriver" onAction="#onDownloadClick"/>
+    <TextArea fx:id="logTextArea" wrapText="true" prefHeight="200"/>
+</VBox>
